@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container{
+    width:700px;
+    margin:100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    width: 500px;
+    margin: 30px;
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    color: lightskyblue;
+}

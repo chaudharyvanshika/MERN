@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(248, 145, 145);
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 50px;
+    width: 400px;
+    margin: 50px;
+}
+
+.block {
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
